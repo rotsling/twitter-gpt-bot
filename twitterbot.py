@@ -52,4 +52,4 @@ def post_tweet():
 # Main loop to tweet every hour
 while True:
     post_tweet()
-    time.sleep(3600)  # Sleep for 30mins (1800 seconds)
+    time.sleep(3600)  # Sleep for one hour
