@@ -35,7 +35,7 @@ def generate_tweet_content(prompt):
 
 # Function to post a tweet
 def post_tweet():
-    # Generate a silly made-up drone fact using GPT-3.5
+    # Generate propmpt
     tweet_content = generate_tweet_content("put your chatgpt prompt here")
 # Assuming tweet_content is the generated text
 
